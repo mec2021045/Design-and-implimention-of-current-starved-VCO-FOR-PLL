@@ -12,9 +12,4 @@ range, tuning linearity, low power consumption, small size, and low phase noise
 These VCOs are typically constructed using inductors, capacitors, and an amplifier. They generate high-frequency voltage-controlled oscillations, making them suitable for applications requiring sinusoidal wave output. This architecture is particularly advantageous in situations where space constraints are not critical.
 ### Source Coupled VCO
 These VCOs are constructed using transistors arranged in a back-to-back configuration, which enables the generation of high-frequency oscillations. They are versatile enough to produce rectangular and sawtooth waveforms as well. Compared to current-starved VCOs, these designs can achieve lower power dissipation. However, a significant drawback is their reliance on capacitors, which may pose challenges in single-poly pure digital processes due to potential parasitic effects.
-### FREQUENCY DIVIDER
-A frequency divider is an electronic circuit that takes an input signal of a certain frequency and generates an output signal with a lower frequency. This is accomplished by dividing the input frequency by a fixed integer value, known as the division ratio.
-There are several types of frequency dividers, including binary dividers, divide-by-n dividers, and programmable dividers. Binary dividers divide the input frequency by powers of two, while divide-by-n dividers divide the input frequency by a fixed integer value. Programmable dividers, as the name suggests, allow the division ratio to be programmed or changed dynamically.
-
-Frequency dividers can be implemented using a variety of electronic components, such as digital logic gates, flip-flops, and counters. Some modern frequency dividers are also implemented using digital signal processing (DSP) techniques, which can provide greater flexibility and accuracy.
 
